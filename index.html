@@ -4,8 +4,9 @@
       <script src="https://use.fontawesome.com/fbc5130b27.js"></script>
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Norican|Roboto" rel="stylesheet">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/style.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -13,7 +14,7 @@
 
 
 
-    <title></title>
+    <title>Jackal &amp; Hyde</title>
     <link rel="stylesheet" type="text/css" href="plugin/css/style.css">
     <link rel="stylesheet" type="text/css" href="css/demo.css">
     <script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
@@ -24,13 +25,15 @@
     <script type="text/javascript">
         $.noConflict();
         jQuery(document).ready(function( $ ){
+
+
             var description = '';
 
             $('#media').ttwMusicPlayer(myPlaylist, {
                 autoPlay:false, 
                 description:description,
                 jPlayer:{
-                    swfPath:'plugin/jquery-jplayer' //You need to override the default swf path any time the directory structure changes
+                swfPath:'plugin/jquery-jplayer' //You need to override the default swf path any time the directory structure changes
                 }
             });
         });
@@ -48,61 +51,105 @@
 
     </head>
 
-    <body>
+    <body id="home">
 
-<main>   
+  <nav>
+    <div class="nav-wrapper">
+    <a href="#!" class="brand-logo"><img src="img/jackal_hyde_menu.png" /></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="artwork.html">Artwork &amp; Performance</a></li>
+                            <li><a href="mailto:booking@jackalandhydemusic.com">Booking</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="artwork.html">Artwork &amp; Performance</a></li>
+                            <li><a href="mailto:booking@jackalandhydemusic.com">Booking</a></li>
+      </ul>
+    </div>
+  </nav>
 
-<div class="container pageContent">
-
-
-
-
-<div class="row">
-
-<div class="col s12 m4 l2"><div id="media"></div></div>
-<div class="col s12 m4 l8"></div>
-<div class="col s12 m4 l2">
-  <img src="img/badrobot_sm.jpg" />
-<h2>BAD ROBOT EP OUT NOW</h2>
-  <i class="fa fa-3x fa-apple" aria-hidden="true"></i>
-  <a href="https://dominanceelectricity.bandcamp.com/album/bad-robot">
-    <i class="fa fa-2x fa-bandcamp" aria-hidden="true"></i></a>
-  <a href="https://www.beatport.com/artist/jackal-and-hyde/235088"></a>
-
-<a href="http://www.saveoursounds.net/en/de023test.html"></a>
-
-</div>
-  </div>
+<main> 
 
 
-  </div>
+
 
 </main>
 
 
-<footer class="page-footer red darken-4">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <ul class="menu valign-wrapper">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">About</a></li>
-                <li><a href="index.html">Booking</a></li>
-                <li><a href="https://soundcloud.com/jackal-and-hyde"><i class="fa fa-3x fa-soundcloud" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.facebook.com/jackalandhyde/?ref=br_rs"<i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i></a></li>
-                <li><a href="https://twitter.com/JackalandHyde"><i class="fa fa-2x fa-twitter-square" aria-hidden="true"></i></a></li>
-                <li><a href="mailto:info@jackalandhydemusic.com"><i class="fa fa-2x fa-envelope" aria-hidden="true"></i></a></li>
-                </ul>
+
+
+<footer class="page-footer">
+  <div class="container stickyfooter">
+    <div class="row mainRow">
+        <div class="col m12 l7 firstColumn">
+          <div id="groupAll">
+            <div class="row firstNestRow">
+                <div class="col s12">
+                    <div id="mediaLinks" class="left">
+                      <div id="media"></div>
+                     </div>
+                </div>
+                </div><!--firstNestRow-->
+
+            <div class="row secondNestRow">
+                <div class="col s12">
+                      <ul class="menu valign-wrapper">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="artwork.html">Artwork &amp; Performance</a></li>
+                            <li><a href="mailto:booking@jackalandhydemusic.com">Booking</a></li>
+                            <li><a href="https://soundcloud.com/jackal-and-hyde"><i class="fa fa-3x fa-soundcloud" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.facebook.com/jackalandhyde/?ref=br_rs"<i class="fa fa-2x fa-facebook-official" aria-hidden="true"></i></a></li>
+                            <li><a href="https://twitter.com/JackalandHyde"><i class="fa fa-2x fa-twitter-square" aria-hidden="true"></i></a></li>
+                            <li><a href="mailto:info@jackalandhydemusic.com"><i class="fa fa-2x fa-envelope" aria-hidden="true"></i></a></li>
+                            <li id="discogsIcon"><a href="https://www.discogs.com/artist/35393-Scott-Weiser?filter_anv=0&type=Credits"><img src="img/discogs.png" /></a></li>
+                      </ul>
+                  </div>
+          </div> <!--secondNestRow-->
+        </div><!--groupAll-->
+        </div><!--end firstColumn-->
+
+      <div class="col m12 l5 secondColumn"> 
+
+        <div class="row firstNestedRow">
+                <div class="col s12">
+                    <div class="saleItem right">
+                      <div class="center-align">
+                        <img src="img/badrobot_sm.jpg" />
+                        <h2>BAD ROBOT EP</h2>
+                        <h3>OUT NOW</h3>
+                      </div>
+                    </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
-            © 2018 Jackal &amp; Hyde
-            <a class="grey-text text-lighten-4 right" href="http://www.trashfencerecords.com">Trash Fence Records</a>
-            </div>
-          </div>
-        </footer>
+              <!-- endfirstNestedRow-->
+
+            <div class="row secondNestedRow">
+                <div class="col s12">
+                  
+                    <ul class="menu valign-wrapper right">
+                    <li><a href="https://dominanceelectricity.bandcamp.com/album/bad-robot"><i class="fa fa-2x fa-bandcamp" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.beatport.com/artist/jackal-and-hyde/235088"></a></li>
+                    <li><a href="http://www.saveoursounds.net/en/de023test.html"><img src="img/SOSheader3.jpg" /></a></li>
+                    <li><a href="https://www.beatport.com/release/bad-robot/1712113"><img src="img/beatport.png" /></a></li>
+                    <li><a href="https://www.junodownload.com/products/jackal-hyde-bad-robot/3040014-02/"><img src="img/juno.png" /></a></li>
+                  </ul>
+                </div>
+
+            </div><!-- endsecondNestedRow-->
+
+      </div><!--end secondColumn-->
+  </div><!--end main row-->
+
+</div> <!--end stickyfooter-->
+
+</footer>
+
+
 
 
 
@@ -113,8 +160,15 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
 
+     
 
+      <script type="text/javascript">
+
+$(document).ready(function(){
+  $(".button-collapse").sideNav();
+});  </script>
 
 
     </body>
-  </html>
+  </html> 
+

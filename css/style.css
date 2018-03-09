@@ -6837,13 +6837,24 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 body {
   background-color: #000;
-  background: url("../img/jh_chrome_logo_sm.jpg") no-repeat top left fixed #000; }
+  font-family: "Roboto"; }
+
+#home, #about {
+  background-color: #000;
+  background-image: url("../img/jh_chrome_logo_final.png");
+  background-position: center top; }
+
+#photos {
+  background-color: #000;
+  background-image: url("../img/web_collage.png");
+  background-position: center top; }
 
 .fa {
   color: #fff; }
 
 #media {
-  width: 300px; }
+  width: 300px;
+  background-color: #000; }
 
 /*@font-face {*/
 /*font-family: Lato;*/
@@ -6889,12 +6900,15 @@ html {
 .ttw-music-player {
   margin-bottom: 0px; }
 
-.ttw-music-player .description.showing {
-  margin: 0px 0;
-  height: 0px; }
+.ttw-music-player .description {
+  display: none; }
 
 .menu {
-  background-color: #9c0303; }
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px; }
 
 .menu li {
   display: inline; }
@@ -6907,10 +6921,14 @@ html {
   padding: 8px;
   color: #fff; }
 
+.menu a:hover, .menu .fa:hover {
+  color: #be130c; }
+
 body {
   display: flex;
   min-height: 100vh;
-  flex-direction: column; }
+  flex-direction: column;
+  color: #fff; }
 
 main {
   flex: 1 0 auto; }
@@ -6921,11 +6939,42 @@ h2 {
   color: #fff; }
 
 .pageContent {
-  height: 70vh;
-  position: relative; }
+  position: relative;
+  min-width: 100%; }
 
-.pageContent .row {
+.pageContent .stickyfooter {
   position: absolute;
-  bottom: 0px; }
+  bottom: 0px;
+  width: 100%; }
+
+#discogsIcon {
+  padding-top: 1em; }
+
+.ttw-music-player .tracklist {
+  display: none; }
+
+#mediaLinks {
+  position: absolute;
+  bottom: 0px;
+  padding-left: 70px; }
+
+.saleItem, #mediaLinks {
+  text-align: center; }
+
+.saleItem {
+  padding-right: 200px; }
+
+.saleItem h2 {
+  margin-bottom: 0px; }
+
+.saleItem h3 {
+  margin-top: 0px; }
+
+.bodyText {
+  background: #000; }
+
+.page-footer {
+  z-index: 9999;
+  background-color: #000; }
 
 /*# sourceMappingURL=style.css.map */
