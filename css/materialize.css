@@ -6998,7 +6998,8 @@ nav {
   max-width: 645px; }
 
 blockquote {
-  font-style: Italic; }
+  font-style: Italic;
+  border-left: 0px; }
 
 .bodyText .container {
   width: 100%; }
@@ -7034,21 +7035,18 @@ nav {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .firstColumn .secondNestRow {
-    display: none; }
-
-  nav {
-    display: block; } }
+    display: none; } }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   nav {
-    display: none; } }
+    display: block; } }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  nav {
+  .firstColumn .secondNestRow {
     display: block; }
 
-  .firstColumn .secondNestRow {
-    display: block; } }
+  nav {
+    display: none; } }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1081px) {
   #home #groupAll {

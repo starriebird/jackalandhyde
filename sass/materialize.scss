@@ -311,6 +311,7 @@ background-color:#000;
 
 blockquote{
 font-style:Italic;
+border-left:0px;
 
 }
 
@@ -377,9 +378,7 @@ blockquote {
   display:none;
 }
 
-nav{
-  display:block;
-}
+
 
 
 } 
@@ -387,9 +386,11 @@ nav{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
-nav{
-  display:none;
+  nav{
+  display:block;
 }
+
+
 
 
 } 
@@ -397,13 +398,15 @@ nav{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-nav{
-  display:block;
-}
+
 
 
 .firstColumn .secondNestRow{
   display:block;
+}
+
+nav{
+  display:none;
 }
 
 
