@@ -6877,6 +6877,10 @@ html {
   height: 62px;
   width: 334px; }
 
+a {
+  color: #be130c;
+  text-decoration: underline; }
+
 #download {
   position: absolute;
   top: 132px;
@@ -6888,6 +6892,9 @@ html {
 
 #download:hover {
   color: #fff; }
+
+nav li {
+  vertical-align: text-bottom; }
 
 .rating-level, .rating-star, .tracklist, .tracks, .track {
   visibility: hidden; }
@@ -6940,7 +6947,12 @@ h2 {
   background-color: #000; }
 
 #discogsIcon {
-  padding-top: 1em; }
+  padding-top: .5em; }
+
+#discogsIcon img {
+  width: 80%;
+  height: 80%;
+  padding-top: .5em; }
 
 .saleItem h2 {
   margin-bottom: 0px; }
