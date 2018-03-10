@@ -7011,6 +7011,9 @@ h2, .author {
   font-size: 2.5rem;
   font-family: 'Norican', cursive; }
 
+nav {
+  display: none; }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   #home #groupAll {
@@ -7031,22 +7034,25 @@ h2, .author {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .firstColumn .secondNestRow {
-    display: none; } }
+    display: none; }
+
+  nav {
+    display: block; } }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   nav {
-    display: block; } }
+    display: none; } }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  nav {
+    display: block; }
+
   .firstColumn .secondNestRow {
-    display: none; } }
+    display: block; } }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1081px) {
   #home #groupAll {
     position: absolute;
-    bottom: -425px; }
-
-  .firstColumn .secondNestRow {
-    display: block; } }
+    bottom: -425px; } }
 
 /*# sourceMappingURL=materialize.css.map */

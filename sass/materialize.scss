@@ -329,6 +329,13 @@ font-family: 'Norican', cursive;
 }
 
 
+nav {
+    display: none;
+}
+
+
+
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -370,6 +377,10 @@ blockquote {
   display:none;
 }
 
+nav{
+  display:block;
+}
+
 
 } 
 
@@ -377,7 +388,7 @@ blockquote {
 @media only screen and (min-width: 768px) {
 
 nav{
-  display:block;
+  display:none;
 }
 
 
@@ -386,8 +397,13 @@ nav{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
+nav{
+  display:block;
+}
+
+
 .firstColumn .secondNestRow{
-  display:none;
+  display:block;
 }
 
 
@@ -408,9 +424,6 @@ nav{
 
 
 
-.firstColumn .secondNestRow{
-  display:block;
-}
 
 
 
