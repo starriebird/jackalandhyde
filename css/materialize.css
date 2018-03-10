@@ -7016,6 +7016,15 @@ h2, .author {
 #home nav {
   display: none; }
 
+#about .firstColumn .secondNestRow, #artwork .firstColumn .secondNestRow {
+  display: none; }
+
+blockquote {
+  border-left: 5px solid #be130c; }
+
+.brand-logo {
+  margin-left: 1em; }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   #home #groupAll {
@@ -7029,10 +7038,7 @@ h2, .author {
     display: block; }
 
   .firstColumn .secondNestRow {
-    display: none; }
-
-  blockquote {
-    border-left: 5px solid #be130c; } }
+    display: none; } }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .firstColumn .secondNestRow {

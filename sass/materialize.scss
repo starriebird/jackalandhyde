@@ -335,6 +335,18 @@ font-family: 'Norican', cursive;
     display: none;
 }
 
+#about .firstColumn .secondNestRow, #artwork .firstColumn .secondNestRow{
+  display:none;
+}
+
+blockquote {
+    border-left: 5px solid #be130c;
+}
+
+
+.brand-logo{
+  margin-left:1em;
+}
 
 
 
@@ -364,9 +376,7 @@ width: 50%;
 }
 
 
-blockquote {
-    border-left: 5px solid #be130c;
-}
+
 
 
 
@@ -398,6 +408,7 @@ blockquote {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+
 
 
 
