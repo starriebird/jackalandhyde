@@ -53,7 +53,7 @@ font-size:1.2rem;
 }
 
 
-#home, #about{
+#home, #about, #artwork{
 background-color:#000;
 background-image:url("../img/jh_chrome_logo_final.png");
 background-position: center top;
@@ -249,7 +249,7 @@ display:none;
   }
 
 
-  #home .page-footer, #about .page-footer{
+  #home .page-footer, #about .page-footer, #artwork .page-footer{
 
     background-color:transparent;
     width:100%;
@@ -331,7 +331,7 @@ font-family: 'Norican', cursive;
 }
 
 
-nav {
+#home nav {
     display: none;
 }
 
@@ -354,7 +354,7 @@ width: 50%;
 }
 
 
-nav{
+#home nav{
   display:block;
 }
 
@@ -387,7 +387,7 @@ blockquote {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
-  nav{
+  #home nav{
   display:block;
 }
 
@@ -406,7 +406,7 @@ blockquote {
   display:block;
 }
 
-nav{
+#home nav{
   display:none;
 }
 

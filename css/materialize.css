@@ -6844,7 +6844,7 @@ body {
   flex-direction: column;
   font-size: 1.2rem; }
 
-#home, #about {
+#home, #about, #artwork {
   background-color: #000;
   background-image: url("../img/jh_chrome_logo_final.png");
   background-position: center top;
@@ -6958,7 +6958,7 @@ h2 {
   /* For IE 8*/
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; }
 
-#home .page-footer, #about .page-footer {
+#home .page-footer, #about .page-footer, #artwork .page-footer {
   background-color: transparent;
   width: 100%;
   padding-left: 3rem;
@@ -7013,7 +7013,7 @@ h2, .author {
   font-size: 2.5rem;
   font-family: 'Norican', cursive; }
 
-nav {
+#home nav {
   display: none; }
 
 /* Extra small devices (phones, 600px and down) */
@@ -7025,7 +7025,7 @@ nav {
     margin: auto;
     width: 50%; }
 
-  nav {
+  #home nav {
     display: block; }
 
   .firstColumn .secondNestRow {
@@ -7039,14 +7039,14 @@ nav {
     display: none; } }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  nav {
+  #home nav {
     display: block; } }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .firstColumn .secondNestRow {
     display: block; }
 
-  nav {
+  #home nav {
     display: none; } }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1081px) {
