@@ -233,8 +233,8 @@ display:none;
 
 
 
-  #media{
-
+  .saleItem{
+    float:right;
   }
 
 
@@ -261,6 +261,8 @@ display:none;
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
 
   }
+
+
 
 
   #home .page-footer, #about .page-footer, #artwork .page-footer{
@@ -409,6 +411,12 @@ width: 50%;
 .firstColumn .secondNestRow{
   display:none;
 }
+
+
+  .saleItem{
+
+    float:none;
+  }
 
 
 

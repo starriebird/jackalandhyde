@@ -6954,6 +6954,9 @@ h2 {
   height: 80%;
   padding-top: .5em; }
 
+.saleItem {
+  float: right; }
+
 .saleItem h2 {
   margin-bottom: 0px; }
 
@@ -7060,7 +7063,10 @@ blockquote {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .firstColumn .secondNestRow {
-    display: none; } }
+    display: none; }
+
+  .saleItem {
+    float: none; } }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   #home nav {
