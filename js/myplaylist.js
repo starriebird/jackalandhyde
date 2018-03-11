@@ -13,7 +13,7 @@ var myPlaylist = [
         title:'Bad Robot teaser',
         artist:'Jackal and Hyde',
         duration:'0:30',
-        cover:'mix/jackal_hyde_logo.jpeg',
+        cover:'mix/bad_robot_player.png',
     }
 
 ];
