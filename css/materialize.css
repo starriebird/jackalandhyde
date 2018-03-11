@@ -6850,6 +6850,15 @@ body {
   background-position: center top;
   background-repeat: no-repeat; }
 
+#booking {
+  background-color: #000;
+  background-image: url("../img/jackal_hyde_green.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-position: 0px 50px; }
+
 .fa {
   color: #fff;
   font-size: 1.5em; }
@@ -6912,6 +6921,14 @@ nav li {
 
 .jp-interface .artist, .jp-interface .artist-outer {
   display: none; }
+
+.jp-next, .jp-previous {
+  display: none; }
+
+#home .ttw-music-player .play, .ttw-music-player .pause {
+  width: 32px;
+  height: 45px;
+  margin: 0 7px; }
 
 .menu {
   -webkit-margin-before: 0em;
@@ -6981,7 +6998,20 @@ nav li {
   /* For IE 8*/
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; }
 
-#home .page-footer, #about .page-footer, #artwork .page-footer {
+#booking .bodyText {
+  padding: 2em;
+  width: 50%;
+  top: 30%;
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: #be130c;
+  /* RGBa with 0.6 opacity */
+  background: rgba(190, 19, 12, 0.8);
+  /* For IE 5.5 - 7*/
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c)"; }
+
+#home .page-footer, #about .page-footer, #artwork .page-footer, #booking .page-footer {
   background-color: transparent;
   width: 100%;
   padding-left: 3rem;
@@ -7035,7 +7065,7 @@ h1, h2, .author {
 #home nav {
   display: none; }
 
-#about .firstColumn .secondNestRow, #artwork .firstColumn .secondNestRow {
+#about .firstColumn .secondNestRow, #artwork .firstColumn .secondNestRow, #booking .firstColumn .secondNestRow {
   display: none; }
 
 blockquote {
@@ -7044,6 +7074,9 @@ blockquote {
 .brand-logo {
   margin-left: 1em;
   margin-top: .25em; }
+
+#home .brand-logo {
+  margin-left: 0em; }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
