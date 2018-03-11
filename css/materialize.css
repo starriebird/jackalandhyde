@@ -6877,7 +6877,7 @@ html {
   height: 62px;
   width: 334px; }
 
-a {
+.bodyText a {
   color: #be130c;
   text-decoration: underline; }
 
@@ -7018,12 +7018,8 @@ blockquote {
   width: 100%; }
 
 h1, h2, .author {
-  font-size: 4rem;
-  font-family: 'Norican', cursive; }
-
-h2, .author {
-  font-size: 2.5rem;
-  font-family: 'Norican', cursive; }
+  font-size: 1.5rem;
+  font-family: 'Coda Caption', sans-serif; }
 
 #home nav {
   display: none; }
@@ -7050,7 +7046,17 @@ blockquote {
     display: block; }
 
   .firstColumn .secondNestRow {
-    display: none; } }
+    display: none; }
+
+  #home .page-footer {
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: black;
+    /* RGBa with 0.6 opacity */
+    background: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; } }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .firstColumn .secondNestRow {
@@ -7068,6 +7074,9 @@ blockquote {
     display: none; } }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1081px) {
+  #home .page-footer {
+    background-color: none; }
+
   #home #groupAll {
     position: absolute;
     bottom: -425px; } }
