@@ -357,6 +357,7 @@ blockquote {
 
 .brand-logo{
   margin-left:1em;
+  margin-top:.25em;
 }
 
 
@@ -414,8 +415,7 @@ width: 50%;
 
 
   .saleItem{
-
-    float:none;
+float:none;
   }
 
 
@@ -451,6 +451,10 @@ width: 50%;
 
 #home nav{
   display:none;
+}
+
+.saleItem{
+  float:right;
 }
 
 
