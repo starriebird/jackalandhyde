@@ -6935,10 +6935,21 @@ nav li {
 .menu a:hover, .menu .fa:hover {
   color: #be130c; }
 
-h2 {
-  font-size: 25px;
-  font-style: bold;
+.side-nav a {
   color: #fff; }
+
+.side-nav li > a, .side-nav .fa {
+  color: #fff; }
+
+#discogsIcon img {
+  /* width: 80%; */
+  /* height: 80%; */
+  /* padding-top: .5em; */ }
+
+.side-nav .discogsIcon img {
+  width: 83px;
+  height: 30px;
+  padding-top: 0; }
 
 .pageContent .stickyfooter {
   position: absolute;
@@ -7039,6 +7050,9 @@ blockquote {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .saleItem {
+    float: none; }
+
   #home #groupAll {
     position: relative; }
 
@@ -7060,14 +7074,14 @@ blockquote {
     /* For IE 5.5 - 7*/
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
     /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; } }
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; }
+
+  main {
+    min-height: 600px; } }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .firstColumn .secondNestRow {
-    display: none; }
-
-  .saleItem {
-    float: none; } }
+    display: none; } }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   #home nav {
