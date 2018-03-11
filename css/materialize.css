@@ -6878,7 +6878,7 @@ html {
   width: 334px; }
 
 .bodyText a {
-  color: #be130c;
+  color: #fff;
   text-decoration: underline; }
 
 #download {
@@ -6887,8 +6887,7 @@ html {
   left: 30px;
   text-decoration: none;
   font-size: 12px;
-  color: #999;
-  font-family: arial, sans-serif; }
+  color: #999; }
 
 #download:hover {
   color: #fff; }
@@ -6935,16 +6934,14 @@ nav li {
 .menu a:hover, .menu .fa:hover {
   color: #be130c; }
 
+.current {
+  border-bottom: 2px solid #be130c; }
+
 .side-nav a {
   color: #fff; }
 
 .side-nav li > a, .side-nav .fa {
   color: #fff; }
-
-#discogsIcon img {
-  /* width: 80%; */
-  /* height: 80%; */
-  /* padding-top: .5em; */ }
 
 .side-nav .discogsIcon img {
   width: 83px;
@@ -7013,7 +7010,8 @@ main {
   position: relative; }
 
 nav {
-  background-color: #000; }
+  background-color: #000;
+  margin-bottom: 1em; }
 
 .bodyText {
   max-width: 80%;
@@ -7032,8 +7030,7 @@ blockquote {
   width: 100%; }
 
 h1, h2, .author {
-  font-size: 1.5rem;
-  font-family: 'Coda Caption', sans-serif; }
+  font-size: 1.5rem; }
 
 #home nav {
   display: none; }
