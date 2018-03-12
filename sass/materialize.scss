@@ -236,10 +236,7 @@ color:#fff;
 
 
 
-  .side-nav .discogsIcon img{
-    width: 83px;
-    height: 30px;
-    padding-top: 0;  }
+
 
 
 
@@ -258,10 +255,14 @@ color:#fff;
 
 
 #discogsIcon img{
-  width:80%;
-  height:80%;
+
   padding-top:.5em;
 }
+
+  .side-nav .discogsIcon img{
+    width: 83px;
+    height: 30px;
+    padding-top: 0;  }
 
 
 
@@ -298,7 +299,7 @@ color:#fff;
   #booking .bodyText{
     padding: 2em;
     width:50%;
-    top:30%;
+    margin-top:30%;
     /* Fallback for web browsers that doesn't support RGBa */
     background: rgb(190, 19, 12);
     /* RGBa with 0.6 opacity */

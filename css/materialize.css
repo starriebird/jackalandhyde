@@ -6960,11 +6960,6 @@ nav li {
 .side-nav li > a, .side-nav .fa {
   color: #fff; }
 
-.side-nav .discogsIcon img {
-  width: 83px;
-  height: 30px;
-  padding-top: 0; }
-
 .pageContent .stickyfooter {
   position: absolute;
   bottom: 0px;
@@ -6975,9 +6970,12 @@ nav li {
   padding-top: .5em; }
 
 #discogsIcon img {
-  width: 80%;
-  height: 80%;
   padding-top: .5em; }
+
+.side-nav .discogsIcon img {
+  width: 83px;
+  height: 30px;
+  padding-top: 0; }
 
 .saleItem {
   float: right; }
@@ -7001,7 +6999,7 @@ nav li {
 #booking .bodyText {
   padding: 2em;
   width: 50%;
-  top: 30%;
+  margin-top: 30%;
   /* Fallback for web browsers that doesn't support RGBa */
   background: #be130c;
   /* RGBa with 0.6 opacity */
