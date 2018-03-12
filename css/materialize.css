@@ -6925,7 +6925,7 @@ nav li {
 .jp-next, .jp-previous {
   display: none; }
 
-#home .ttw-music-player .play, .ttw-music-player .pause {
+#home .ttw-music-player .play, #home .ttw-music-player .pause {
   width: 32px;
   height: 45px;
   margin: 0 7px; }
