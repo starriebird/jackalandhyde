@@ -6856,7 +6856,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
-  background-attachment: fixed;
   background-position: 0px 50px; }
 
 .fa {
@@ -7084,6 +7083,20 @@ blockquote {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  #booking {
+    background-color: #000;
+    background-image: url("../img/jackal_hyde_green.jpg");
+    background-position: center top 60px;
+    background-repeat: no-repeat;
+    background-size: 100%; }
+
+  #home, #about, #artwork {
+    background-color: #000;
+    background-image: url(../img/jh_chrome_logo_final.png);
+    background-position: center top 30px;
+    background-repeat: no-repeat;
+    background-size: 100%; }
+
   .saleItem {
     float: none; }
 
@@ -7111,15 +7124,36 @@ blockquote {
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; }
 
   main {
-    min-height: 600px; } }
+    min-height: 150px; } }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  #home, #about, #artwork {
+    background-color: #000;
+    background-image: url(../img/jh_chrome_logo_final.png);
+    background-position: center top 30px;
+    background-repeat: no-repeat;
+    background-size: 100%; }
+
   .firstColumn .secondNestRow {
-    display: none; } }
+    display: none; }
+
+  #booking {
+    background-color: #000;
+    background-image: url("../img/jackal_hyde_green.jpg");
+    background-position: center top 70px;
+    background-repeat: no-repeat;
+    background-size: 100%; } }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   #home nav {
-    display: block; } }
+    display: block; }
+
+  #home, #about, #artwork {
+    background-color: #000;
+    background-image: url("../img/jh_chrome_logo_final.png");
+    background-position: center top 0px;
+    background-repeat: no-repeat;
+    background-size: auto; } }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .firstColumn .secondNestRow {
