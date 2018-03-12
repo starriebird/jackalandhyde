@@ -6952,6 +6952,7 @@ nav li {
   color: #be130c; }
 
 .progress {
+  position: relative;
   height: 16px;
   background-color: #be130c;
   border-radius: 2px; }
