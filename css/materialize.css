@@ -6951,6 +6951,11 @@ nav li {
 .menu a:hover, .menu .fa:hover, nav ul a:hover, nav ul .fa:hover {
   color: #be130c; }
 
+.progress {
+  height: 16px;
+  background-color: #be130c;
+  border-radius: 2px; }
+
 .current {
   border-bottom: 2px solid #be130c; }
 
