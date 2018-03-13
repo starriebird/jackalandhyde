@@ -242,7 +242,10 @@ color:#fff;
 
 
 
+.nav-wrapper .menu li{
 
+  float:none;
+}
 
 
 
@@ -339,12 +342,7 @@ color:#fff;
 
 }
 
-.slider{
-      margin-left: auto;
-    margin-right: auto;
-    height: 690px;
-    width: 645px;
-}
+
 
 
   main {
@@ -380,10 +378,7 @@ margin-bottom:1em;
 }
 
 
-.slider .slides li img{
-  max-height:650px;
-  max-width:645px;
-}
+
 
 blockquote{
 font-style:Italic;
@@ -428,6 +423,14 @@ blockquote {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+
+
+.slider, .slider .slides{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height:auto;
+}
 
 
 #booking{
@@ -519,6 +522,15 @@ background-repeat:no-repeat;
 background-size:100%;
 }
 
+.slider, .slider .slides{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height:auto;
+}
+
+
+
 
 
 
@@ -542,6 +554,20 @@ background-size:auto;
 
 
 
+
+.slider{
+      margin-left: auto;
+    margin-right: auto;
+    height: 690px;
+    width: 645px;
+}
+
+.slider .slides, .slider .slides{
+    margin-left: auto;
+    margin-right: auto;
+    width: 645px;
+    height:650px;
+}
 
 
 
