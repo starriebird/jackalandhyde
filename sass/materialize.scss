@@ -278,6 +278,12 @@ color:#fff;
 
   .saleItem{
     float:right;
+    text-align:center;
+  }
+
+    .saleItem .center{
+    float:right;
+    text-align:center;
   }
 
 
@@ -451,9 +457,14 @@ background-size:100%;
 
 
     .saleItem{
-float:none;
+float:left;
   }
 
+
+    .saleItem .center{
+    float:left;
+    text-align:center;
+  }
 
     #home #groupAll{
   position:relative;
@@ -490,6 +501,13 @@ width: 50%;
 
 main{
   min-height:150px;
+}
+
+#home .page-footer, #about .page-footer, #artwork .page-footer, #booking .page-footer {
+    background-color: transparent;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 0;
 }
 
 
