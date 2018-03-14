@@ -6986,7 +6986,12 @@ nav li {
   padding-top: 0; }
 
 .saleItem {
-  float: right; }
+  float: right;
+  text-align: center; }
+
+.saleItem .center {
+  float: right;
+  text-align: center; }
 
 .saleItem h2 {
   margin-bottom: 0px; }
@@ -7097,7 +7102,11 @@ blockquote {
     background-size: 100%; }
 
   .saleItem {
-    float: none; }
+    float: left; }
+
+  .saleItem .center {
+    float: left;
+    text-align: center; }
 
   #home #groupAll {
     position: relative; }
@@ -7153,7 +7162,10 @@ blockquote {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    height: auto; } }
+    height: auto; }
+
+  .firstColumn .secondNestRow {
+    display: none; } }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   #home nav {
@@ -7179,6 +7191,20 @@ blockquote {
     height: 650px; } }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  #home nav {
+    display: block; }
+
+  .firstColumn .secondNestRow {
+    display: none; } }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1334px) {
+  #home .page-footer {
+    background-color: none; }
+
+  #home #groupAll {
+    position: absolute;
+    bottom: -425px; }
+
   .firstColumn .secondNestRow {
     display: block; }
 
@@ -7187,13 +7213,5 @@ blockquote {
 
   .saleItem {
     float: right; } }
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1081px) {
-  #home .page-footer {
-    background-color: none; }
-
-  #home #groupAll {
-    position: absolute;
-    bottom: -425px; } }
 
 /*# sourceMappingURL=materialize.css.map */
