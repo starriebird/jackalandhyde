@@ -430,9 +430,12 @@ blockquote {
 
 
 .brand-logo{
-  margin-left:1em;
   margin-top:.25em;
 }
+
+nav .brand-logo {
+    left: 12rem;
+    }
 
 #home .brand-logo{
   margin-left:0em;
@@ -464,14 +467,14 @@ blockquote {
 
 
 
-
 #booking{
-    background-color:#000;
-    background-image:url("../img/jackal_hyde_green.jpg");
-    background-position: center top 60px;
-    background-repeat:no-repeat;
-    background-size:100%;
+background-color:#000;
+background-image:url("../img/jackal_hyde_green_mobile.jpg");
+background-position: center top 70px;
+background-repeat:no-repeat;
+background-size:100%;
 }
+
 
   #home, #about, #artwork {
     background-color: #000;
@@ -538,6 +541,21 @@ main{
 } 
 
 
+  #booking .bodyText{
+    padding: 1em;
+    width:100%;
+    margin-top:30%;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000)";
+
+  }
+
 
 
 
@@ -562,11 +580,12 @@ main{
 
 #booking{
 background-color:#000;
-background-image:url("../img/jackal_hyde_green.jpg");
+background-image:url("../img/jackal_hyde_green_mobile.jpg");
 background-position: center top 70px;
 background-repeat:no-repeat;
 background-size:100%;
 }
+
 
 .slider, .slider .slides{
     margin-left: auto;
@@ -596,7 +615,24 @@ background-size:100%;
       margin-right:auto;
 } 
 
+#home nav {
+    display: block;
+}
 
+  #booking .bodyText{
+    padding: 1em;
+    width:100%;
+    margin-top:30%;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000)";
+
+  }
 
 
 
@@ -638,7 +674,6 @@ background-size:auto;
 
 
 
-
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -666,6 +701,31 @@ background-size:auto;
   float:right;
 }
 
+#booking{
+background-color:#000;
+background-image:url("../img/jackal_hyde_green.jpg");
+background-position: center top 70px;
+background-repeat:no-repeat;
+background-size:100%;
+}
+
+
+  #booking .bodyText{
+    padding: 2em;
+    width:50%;
+    margin-top:30%;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000)";
+
+  }
+
+
 
 } 
 
@@ -673,30 +733,30 @@ background-size:auto;
 @media only screen and (min-width: 1334px) {
 
 
-  #home .page-footer{
-  background-color:none;
-}
+      #home .page-footer{
+      background-color:none;
+    }
 
 
 
-  #home #groupAll{
-  position:absolute;
-  bottom:-425px;
+      #home #groupAll{
+      position:absolute;
+      bottom:-425px;
 
-}
+    }
 
 
-.firstColumn .secondNestRow{
-  display:block;
-}
+    .firstColumn .secondNestRow{
+      display:block;
+    }
 
-#home nav{
-  display:none;
-}
+    #home nav{
+      display:none;
+    }
 
-.saleItem{
-  float:right;
-}
+    .saleItem{
+      float:right;
+    }
 
 
 
