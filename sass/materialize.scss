@@ -132,8 +132,17 @@ html { overflow-y: scroll; }
 }
 
 
+.row .row{
+  margin-bottom:0px;
+}
+
 nav li{
   vertical-align:text-bottom;
+}
+
+#mediaLinks{
+
+  float:left;
 }
 
 
@@ -333,9 +342,17 @@ color:#fff;
 
 
 
-  #home .page-footer, #about .page-footer, #artwork .page-footer, #booking .page-footer{
+  #home .page-footer, #artwork .page-footer, #booking .page-footer{
 
     background-color:transparent;
+    width:100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+
+  #about .page-footer{
+    background-color:#be130c;
     width:100%;
     padding-left: 3rem;
     padding-right: 3rem;
@@ -406,9 +423,11 @@ h1, h2, .author{
     display: none;
 }
 
-#about .firstColumn .secondNestRow, #artwork .firstColumn .secondNestRow, #booking .firstColumn .secondNestRow{
+#artwork .firstColumn .secondNestRow, #booking .firstColumn .secondNestRow{
   display:none;
 }
+
+
 
 blockquote {
     border-left: 5px solid #be130c;
@@ -438,13 +457,19 @@ blockquote {
     height:auto;
 }
 
+.slider img, .slider .slides img{
+      max-width: 100%;
+}
+
+
+
 
 #booking{
-background-color:#000;
-background-image:url("../img/jackal_hyde_green.jpg");
-background-position: center top 60px;
-background-repeat:no-repeat;
-background-size:100%;
+    background-color:#000;
+    background-image:url("../img/jackal_hyde_green.jpg");
+    background-position: center top 60px;
+    background-repeat:no-repeat;
+    background-size:100%;
 }
 
   #home, #about, #artwork {
@@ -457,23 +482,23 @@ background-size:100%;
 
 
     .saleItem{
-float:left;
+    float:none;
   }
 
 
-    .saleItem .center{
-    float:left;
+  .saleItem .center{
+    float:none;
     text-align:center;
   }
 
     #home #groupAll{
-  position:relative;
+      position:relative;
 
 }
 
 .page-footer .firstColumn{
-margin: auto;
-width: 50%;
+    margin: auto;
+    width: 50%;
 }
 
 
@@ -583,14 +608,20 @@ background-size:auto;
     width: 645px;
 }
 
-.slider .slides, .slider .slides{
+.slider .slides, .slider .slides img{
     margin-left: auto;
     margin-right: auto;
     width: 645px;
     height:650px;
 }
 
+#mediaLinks{
+  float:none;
+}
 
+.saleItem {
+    float: none;
+}
 
 
 
@@ -608,9 +639,18 @@ background-size:auto;
   display:none;
 }
 
+.saleItem{
+    float: right;
+}
 
 
+#mediaLinks{
+  float:left;
+}
+.saleItem .center{
 
+  float:right;
+}
 
 
 } 

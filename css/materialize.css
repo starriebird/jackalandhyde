@@ -5818,7 +5818,7 @@ input[type=range]:focus::-ms-fill-upper {
     opacity: 0; } }
 .slider {
   position: relative;
-  height: 400px;
+  height: 100%;
   width: 100%; }
   .slider.fullscreen {
     height: 100%;
@@ -5836,7 +5836,7 @@ input[type=range]:focus::-ms-fill-upper {
   .slider .slides {
     background-color: #9e9e9e;
     margin: 0;
-    height: 400px; }
+    height: 100%; }
     .slider .slides li {
       opacity: 0;
       position: absolute;
@@ -6900,8 +6900,14 @@ html {
 #download:hover {
   color: #fff; }
 
+.row .row {
+  margin-bottom: 0px; }
+
 nav li {
   vertical-align: text-bottom; }
+
+#mediaLinks {
+  float: left; }
 
 .rating-level, .rating-star, .tracklist, .tracks, .track {
   visibility: hidden; }
@@ -7022,8 +7028,14 @@ nav li {
   /* For IE 8*/
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000)"; }
 
-#home .page-footer, #about .page-footer, #artwork .page-footer, #booking .page-footer {
+#home .page-footer, #artwork .page-footer, #booking .page-footer {
   background-color: transparent;
+  width: 100%;
+  padding-left: 3rem;
+  padding-right: 3rem; }
+
+#about .page-footer {
+  background-color: #be130c;
   width: 100%;
   padding-left: 3rem;
   padding-right: 3rem; }
@@ -7066,7 +7078,7 @@ h1, h2, .author {
 #home nav {
   display: none; }
 
-#about .firstColumn .secondNestRow, #artwork .firstColumn .secondNestRow, #booking .firstColumn .secondNestRow {
+#artwork .firstColumn .secondNestRow, #booking .firstColumn .secondNestRow {
   display: none; }
 
 blockquote {
@@ -7087,6 +7099,9 @@ blockquote {
     width: 100%;
     height: auto; }
 
+  .slider img, .slider .slides img {
+    max-width: 100%; }
+
   #booking {
     background-color: #000;
     background-image: url("../img/jackal_hyde_green.jpg");
@@ -7102,10 +7117,10 @@ blockquote {
     background-size: 100%; }
 
   .saleItem {
-    float: left; }
+    float: none; }
 
   .saleItem .center {
-    float: left;
+    float: none;
     text-align: center; }
 
   #home #groupAll {
@@ -7184,18 +7199,33 @@ blockquote {
     height: 690px;
     width: 645px; }
 
-  .slider .slides, .slider .slides {
+  .slider .slides, .slider .slides img {
     margin-left: auto;
     margin-right: auto;
     width: 645px;
-    height: 650px; } }
+    height: 650px; }
+
+  #mediaLinks {
+    float: none; }
+
+  .saleItem {
+    float: none; } }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   #home nav {
     display: block; }
 
   .firstColumn .secondNestRow {
-    display: none; } }
+    display: none; }
+
+  .saleItem {
+    float: right; }
+
+  #mediaLinks {
+    float: left; }
+
+  .saleItem .center {
+    float: right; } }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1334px) {
   #home .page-footer {
