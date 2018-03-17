@@ -290,11 +290,6 @@ color:#fff;
     text-align:center;
   }
 
-    .saleItem .center{
-    float:right;
-    text-align:center;
-  }
-
 
 
 
@@ -443,6 +438,12 @@ blockquote {
   margin-left:0em;
 }
 
+.stickyfooter .menu{
+  float:right;
+    margin-left:auto;
+      margin-right:auto;
+} 
+
 
 
 
@@ -481,16 +482,10 @@ blockquote {
 }
 
 
-    .saleItem{
-    float:none;
-  }
 
-
-  .saleItem .center{
-    float:none;
-    text-align:center;
-  }
-
+.saleItem, .saleItem .center{
+    float: none;
+}
     #home #groupAll{
       position:relative;
 
@@ -528,12 +523,20 @@ main{
   min-height:150px;
 }
 
-#home .page-footer, #about .page-footer, #artwork .page-footer, #booking .page-footer {
+#home .page-footer, .page-footer, #artwork .page-footer, #booking .page-footer {
     background-color: transparent;
     width: 100%;
     padding-left: 1.5rem;
     padding-right: 0;
 }
+
+
+.stickyfooter .menu{
+  float:none;
+    margin-left:auto;
+      margin-right:auto;
+} 
+
 
 
 
@@ -578,6 +581,22 @@ background-size:100%;
 }
 
 
+#mediaLinks{
+  float:none;
+}
+
+.saleItem, .saleItem .center{
+    float: none;
+}
+
+
+.stickyfooter .menu{
+  float:right;
+    margin-left:auto;
+      margin-right:auto;
+} 
+
+
 
 
 
@@ -615,13 +634,8 @@ background-size:auto;
     height:650px;
 }
 
-#mediaLinks{
-  float:none;
-}
 
-.saleItem {
-    float: none;
-}
+
 
 
 

@@ -6995,10 +6995,6 @@ nav li {
   float: right;
   text-align: center; }
 
-.saleItem .center {
-  float: right;
-  text-align: center; }
-
 .saleItem h2 {
   margin-bottom: 0px; }
 
@@ -7091,6 +7087,11 @@ blockquote {
 #home .brand-logo {
   margin-left: 0em; }
 
+.stickyfooter .menu {
+  float: right;
+  margin-left: auto;
+  margin-right: auto; }
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .slider, .slider .slides {
@@ -7116,12 +7117,8 @@ blockquote {
     background-repeat: no-repeat;
     background-size: 100%; }
 
-  .saleItem {
+  .saleItem, .saleItem .center {
     float: none; }
-
-  .saleItem .center {
-    float: none;
-    text-align: center; }
 
   #home #groupAll {
     position: relative; }
@@ -7149,11 +7146,16 @@ blockquote {
   main {
     min-height: 150px; }
 
-  #home .page-footer, #about .page-footer, #artwork .page-footer, #booking .page-footer {
+  #home .page-footer, .page-footer, #artwork .page-footer, #booking .page-footer {
     background-color: transparent;
     width: 100%;
     padding-left: 1.5rem;
-    padding-right: 0; } }
+    padding-right: 0; }
+
+  .stickyfooter .menu {
+    float: none;
+    margin-left: auto;
+    margin-right: auto; } }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   #home, #about, #artwork {
@@ -7180,7 +7182,18 @@ blockquote {
     height: auto; }
 
   .firstColumn .secondNestRow {
-    display: none; } }
+    display: none; }
+
+  #mediaLinks {
+    float: none; }
+
+  .saleItem, .saleItem .center {
+    float: none; }
+
+  .stickyfooter .menu {
+    float: right;
+    margin-left: auto;
+    margin-right: auto; } }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   #home nav {
@@ -7203,13 +7216,7 @@ blockquote {
     margin-left: auto;
     margin-right: auto;
     width: 645px;
-    height: 650px; }
-
-  #mediaLinks {
-    float: none; }
-
-  .saleItem {
-    float: none; } }
+    height: 650px; } }
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   #home nav {
