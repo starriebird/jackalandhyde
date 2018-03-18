@@ -770,8 +770,9 @@ background-size:100%;
 /*Target firefox hack*/
 
 @-moz-document url-prefix() { 
-  .selector {
-     color:lime;
+  .stickyfooter .menu {
+      margin-bottom:0px;
+      margin-top:0px;
   }
 }
 

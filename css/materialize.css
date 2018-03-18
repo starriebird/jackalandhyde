@@ -7303,7 +7303,8 @@ nav .brand-logo {
     float: right; } }
 /*Target firefox hack*/
 @-moz-document url-prefix() {
-  .selector {
-    color: lime; } }
+  .stickyfooter .menu {
+    margin-bottom: 0px;
+    margin-top: 0px; } }
 
 /*# sourceMappingURL=materialize.css.map */
