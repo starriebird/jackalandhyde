@@ -741,7 +741,7 @@ background-size:100%;
 
       #home #groupAll{
       position:absolute;
-      bottom:-425px;
+      bottom:-390px;
 
     }
 
@@ -765,6 +765,14 @@ background-size:100%;
 
 
 
+}
+
+/*Target firefox hack*/
+
+@-moz-document url-prefix() { 
+  .selector {
+     color:lime;
+  }
 }
 
 

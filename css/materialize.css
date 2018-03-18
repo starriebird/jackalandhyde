@@ -7291,7 +7291,7 @@ nav .brand-logo {
 
   #home #groupAll {
     position: absolute;
-    bottom: -425px; }
+    bottom: -390px; }
 
   .firstColumn .secondNestRow {
     display: block; }
@@ -7301,5 +7301,9 @@ nav .brand-logo {
 
   .saleItem {
     float: right; } }
+/*Target firefox hack*/
+@-moz-document url-prefix() {
+  .selector {
+    color: lime; } }
 
 /*# sourceMappingURL=materialize.css.map */
