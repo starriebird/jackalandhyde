@@ -6971,6 +6971,9 @@ nav li {
 .side-nav li > a, .side-nav .fa {
   color: #fff; }
 
+.stickyfooter a {
+  color: #fff; }
+
 .nav-wrapper .menu li {
   float: none; }
 
@@ -7018,17 +7021,17 @@ nav li {
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; }
 
 #booking .bodyText {
-  padding: 2em;
-  width: 50%;
+  padding: 1em;
+  width: 100%;
   margin-top: 30%;
   /* Fallback for web browsers that doesn't support RGBa */
-  background: black;
+  background: #be130c;
   /* RGBa with 0.6 opacity */
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(190, 19, 12, 0.6);
   /* For IE 5.5 - 7*/
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c);
   /* For IE 8*/
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000)"; }
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c)"; }
 
 #home .page-footer, #artwork .page-footer, #booking .page-footer {
   background-color: transparent;
@@ -7174,13 +7177,13 @@ nav .brand-logo {
     width: 100%;
     margin-top: 30%;
     /* Fallback for web browsers that doesn't support RGBa */
-    background: black;
+    background: #be130c;
     /* RGBa with 0.6 opacity */
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(190, 19, 12, 0.6);
     /* For IE 5.5 - 7*/
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c);
     /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000)"; } }
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c)"; } }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   #home, #about, #artwork {
@@ -7298,17 +7301,17 @@ nav .brand-logo {
     background-size: 100%; }
 
   #booking .bodyText {
-    padding: 2em;
-    width: 50%;
+    padding: 1em;
+    width: 100%;
     margin-top: 30%;
     /* Fallback for web browsers that doesn't support RGBa */
-    background: black;
+    background: #be130c;
     /* RGBa with 0.6 opacity */
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(190, 19, 12, 0.6);
     /* For IE 5.5 - 7*/
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c);
     /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000)"; } }
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c)"; } }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1334px) {
   #home .page-footer {

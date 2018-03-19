@@ -249,7 +249,9 @@ color:#fff;
 }
 
 
-
+.stickyfooter a{
+  color:#fff;
+}
 
 .nav-wrapper .menu li{
 
@@ -327,18 +329,17 @@ color:#fff;
 
 
   #booking .bodyText{
-    padding: 2em;
-    width:50%;
+    padding: 1em;
+    width:100%;
     margin-top:30%;
     /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(0, 0, 0);
+    background: rgb(190, 19, 12);
     /* RGBa with 0.6 opacity */
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(190, 19, 12, 0.6);
     /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c);
     /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000)";
-
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c)";
   }
 
 
@@ -568,14 +569,13 @@ main{
     width:100%;
     margin-top:30%;
     /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(0, 0, 0);
+    background: rgb(190, 19, 12);
     /* RGBa with 0.6 opacity */
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(190, 19, 12, 0.6);
     /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c);
     /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000)";
-
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c)";
   }
 
 
@@ -751,18 +751,17 @@ background-size:auto;
 
 
   #booking .bodyText{
-    padding: 2em;
-    width:50%;
+    padding: 1em;
+    width:100%;
     margin-top:30%;
     /* Fallback for web browsers that doesn't support RGBa */
-    background: rgb(0, 0, 0);
+    background: rgb(190, 19, 12);
     /* RGBa with 0.6 opacity */
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(190, 19, 12, 0.6);
     /* For IE 5.5 - 7*/
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c);
     /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#000, endColorstr=#000)";
-
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c)";
   }
 
 
