@@ -258,6 +258,16 @@ color:#fff;
 
 
 
+#artwork .slider{
+  min-height:650px !important;
+}
+
+
+#artwork .slider .slides, #artwork .slider .slides li{
+  min-height:600px !important;
+}
+
+
 
 
 .pageContent .stickyfooter{
@@ -447,6 +457,15 @@ nav .brand-logo {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+
+#artwork .slider{
+  min-height:500px !important;
+}
+
+
+#artwork .slider .slides, #artwork .slider .slides li{
+  min-height:450px !important;
+}
 
   .page-footer .firstColumn{
     float:none;
