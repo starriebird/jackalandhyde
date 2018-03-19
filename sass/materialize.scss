@@ -511,9 +511,6 @@ background-size:100%;
 
 
 
-.saleItem, .saleItem .center{
-    float: none;
-}
 
 
 .page-footer .firstColumn{
@@ -577,6 +574,10 @@ main{
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c)";
   }
+
+  saleItem, .saleItem .center {
+    float: left;
+}
 
 
 
