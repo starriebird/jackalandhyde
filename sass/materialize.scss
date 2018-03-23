@@ -459,6 +459,30 @@ nav .brand-logo {
 @media only screen and (max-width: 600px) {
 
 
+
+  .page-footer .secondNestedRow menu.valign-wrapper{
+    display:block;
+  }
+
+ .page-footer .secondNestedRow .menu li {
+    float: none;
+}
+
+
+ .page-footer .secondNestedRow .menu li {
+    display: block;
+}
+
+
+ .page-footer .secondNestedRow .menu {
+    width: auto;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
 #artwork .slider{
   min-height:500px !important;
 }
@@ -565,6 +589,7 @@ main{
     padding: 1em;
     width:100%;
     margin-top:30%;
+    background-size:cover;
     /* Fallback for web browsers that doesn't support RGBa */
     background: rgb(190, 19, 12);
     /* RGBa with 0.6 opacity */
@@ -646,6 +671,7 @@ main{
 }
 
   #booking .bodyText{
+    background-size:cover;
     padding: 1em;
     width:100%;
     margin-top:30%;
@@ -755,6 +781,7 @@ background-size:auto;
     padding: 1em;
     width:100%;
     margin-top:30%;
+    background-size:cover;
     /* Fallback for web browsers that doesn't support RGBa */
     background: rgb(190, 19, 12);
     /* RGBa with 0.6 opacity */

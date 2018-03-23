@@ -7100,6 +7100,21 @@ nav .brand-logo {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .page-footer .secondNestedRow menu.valign-wrapper {
+    display: block; }
+
+  .page-footer .secondNestedRow .menu li {
+    float: none; }
+
+  .page-footer .secondNestedRow .menu li {
+    display: block; }
+
+  .page-footer .secondNestedRow .menu {
+    width: auto;
+    float: none;
+    margin-left: 0;
+    margin-right: 0; }
+
   #artwork .slider {
     min-height: 500px !important; }
 
@@ -7134,9 +7149,6 @@ nav .brand-logo {
     background-position: center top 30px;
     background-repeat: no-repeat;
     background-size: 100%; }
-
-  .saleItem, .saleItem .center {
-    float: none; }
 
   .page-footer .firstColumn {
     margin: auto; }
@@ -7176,6 +7188,7 @@ nav .brand-logo {
     padding: 1em;
     width: 100%;
     margin-top: 30%;
+    background-size: cover;
     /* Fallback for web browsers that doesn't support RGBa */
     background: #be130c;
     /* RGBa with 0.6 opacity */
@@ -7183,7 +7196,10 @@ nav .brand-logo {
     /* For IE 5.5 - 7*/
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c);
     /* For IE 8*/
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c)"; } }
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c)"; }
+
+  saleItem, .saleItem .center {
+    float: left; } }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   #home, #about, #artwork {
@@ -7229,6 +7245,7 @@ nav .brand-logo {
     display: block; }
 
   #booking .bodyText {
+    background-size: cover;
     padding: 1em;
     width: 100%;
     margin-top: 30%;
@@ -7304,6 +7321,7 @@ nav .brand-logo {
     padding: 1em;
     width: 100%;
     margin-top: 30%;
+    background-size: cover;
     /* Fallback for web browsers that doesn't support RGBa */
     background: #be130c;
     /* RGBa with 0.6 opacity */
