@@ -7340,7 +7340,7 @@ nav .brand-logo {
 
   #home #groupAll {
     position: absolute;
-    bottom: -390px; }
+    bottom: -375px; }
 
   .firstColumn .secondNestRow {
     display: block; }
@@ -7349,6 +7349,9 @@ nav .brand-logo {
     display: none; }
 
   .saleItem {
+    float: right; }
+
+  .stickyfooter .secondNestedRow .menu {
     float: right; } }
 /*Target firefox hack*/
 @-moz-document url-prefix() {
