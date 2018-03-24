@@ -7201,7 +7201,7 @@ nav .brand-logo {
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c)"; }
 
-  saleItem, .saleItem .center {
+  .saleItem, .saleItem .center {
     float: left; } }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
