@@ -7028,7 +7028,7 @@ nav li {
 
 #booking .bodyText {
   padding: 1em;
-  width: 100%;
+  width: 50%;
   margin-top: 30%;
   /* Fallback for web browsers that doesn't support RGBa */
   background: #be130c;
@@ -7200,7 +7200,7 @@ nav .brand-logo {
 
   #booking .bodyText {
     padding: 1em;
-    width: 100%;
+    width: 50%;
     margin-top: 30%;
     background-size: cover;
     /* Fallback for web browsers that doesn't support RGBa */
@@ -7261,7 +7261,7 @@ nav .brand-logo {
   #booking .bodyText {
     background-size: cover;
     padding: 1em;
-    width: 100%;
+    width: 50%;
     margin-top: 30%;
     /* Fallback for web browsers that doesn't support RGBa */
     background: #be130c;
@@ -7333,7 +7333,7 @@ nav .brand-logo {
 
   #booking .bodyText {
     padding: 1em;
-    width: 100%;
+    width: 50%;
     margin-top: 30%;
     background-size: cover;
     /* Fallback for web browsers that doesn't support RGBa */
