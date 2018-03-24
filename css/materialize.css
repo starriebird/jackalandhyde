@@ -7104,6 +7104,17 @@ nav .brand-logo {
 #home .brand-logo {
   margin-left: 0em; }
 
+/*#shadylogo{
+  max-width:304px;
+  max-height:326px;
+}
+
+
+#goldbabylogo{
+
+  max-width:701px;
+  max-height:159px;
+}*/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .page-footer .secondNestedRow .menu li {
@@ -7128,7 +7139,7 @@ nav .brand-logo {
     float: none; }
 
   #mediaLinks {
-    float: none; }
+    float: left; }
 
   .slider, .slider .slides {
     margin-left: auto;
