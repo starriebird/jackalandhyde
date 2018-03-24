@@ -6885,6 +6885,14 @@ html {
   height: 62px;
   width: 334px; }
 
+.page-footer .secondNestedRow menu {
+  height: 30px; }
+
+.page-footer .secondNestedRow menu li {
+  display: inline-block;
+  height: 30px;
+  vertical-align: middle; }
+
 .bodyText a {
   color: #fff;
   text-decoration: underline; }
@@ -7100,9 +7108,6 @@ nav .brand-logo {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .page-footer .secondNestedRow menu.valign-wrapper {
-    display: block; }
-
   .page-footer .secondNestedRow .menu li {
     float: none; }
 

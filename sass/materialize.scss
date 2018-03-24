@@ -111,6 +111,18 @@ html { overflow-y: scroll; }
 }
 
 
+  .page-footer .secondNestedRow menu{
+   height: 30px;
+  }
+
+    .page-footer .secondNestedRow menu li{
+   display:inline-block;
+      height: 30px;
+      vertical-align:middle;
+  }
+
+
+
 .bodyText a{
 
   color:#fff;
@@ -460,9 +472,7 @@ nav .brand-logo {
 
 
 
-  .page-footer .secondNestedRow menu.valign-wrapper{
-    display:block;
-  }
+
 
  .page-footer .secondNestedRow .menu li {
     float: none;
