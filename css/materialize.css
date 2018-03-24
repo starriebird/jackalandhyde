@@ -6974,6 +6974,10 @@ nav li {
 .side-nav a {
   color: #fff; }
 
+.side-nav li > a:hover {
+  background-color: #000;
+  color: #fff; }
+
 .side-nav li > a, .side-nav .fa {
   color: #fff; }
 
