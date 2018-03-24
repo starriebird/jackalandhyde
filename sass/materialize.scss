@@ -117,8 +117,6 @@ html { overflow-y: scroll; }
 
     .page-footer .secondNestedRow menu li{
    display:inline-block;
-      height: 30px;
-      vertical-align:middle;
   }
 
 
@@ -586,7 +584,7 @@ main{
 }
 
 
-.stickyfooter .menu {
+.stickyfooter .secondNestedRow {
     width: 500px;
     float: none;
     margin-left: auto;
@@ -668,7 +666,7 @@ main{
 }
 
 
-.stickyfooter .menu {
+.stickyfooter .secondNestedRow .menu {
     width: 500px;
     float: none;
     margin-left: auto;

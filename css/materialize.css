@@ -6889,9 +6889,7 @@ html {
   height: 30px; }
 
 .page-footer .secondNestedRow menu li {
-  display: inline-block;
-  height: 30px;
-  vertical-align: middle; }
+  display: inline-block; }
 
 .bodyText a {
   color: #fff;
@@ -7183,7 +7181,7 @@ nav .brand-logo {
     padding-left: 1.5rem;
     padding-right: 0; }
 
-  .stickyfooter .menu {
+  .stickyfooter .secondNestedRow {
     width: 500px;
     float: none;
     margin-left: auto;
@@ -7240,7 +7238,7 @@ nav .brand-logo {
   .saleItem, .saleItem .center {
     float: none; }
 
-  .stickyfooter .menu {
+  .stickyfooter .secondNestedRow .menu {
     width: 500px;
     float: none;
     margin-left: auto;
