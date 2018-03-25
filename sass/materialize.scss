@@ -298,6 +298,21 @@ color:#fff;
 
 #discogsIcon{
   padding-top:.5em;
+  margin-left:.5em;
+  width:83px;
+  height:30px;
+  display:block;
+  background-image:url(../img/discogsrollover.png);
+}
+
+#discogsIcon:hover{
+  padding-top:.5em;
+  margin-left:.5em;
+  width:83px;
+  height:30px;
+  display:block;
+  background-image:url(../img/discogsrollover.png);
+  background-position:-83px;
 }
 
 
