@@ -101,6 +101,8 @@ html { overflow-y: scroll; }
 
 
 
+
+
 #title{
     background:transparent url(../images/title.png) 0 0 scroll;
     position:absolute;
@@ -216,6 +218,11 @@ display:none;
 
 
 //MEDIA PLAYER END
+
+
+img.responsive-img{
+  max-width:50%;
+}
 
 
 

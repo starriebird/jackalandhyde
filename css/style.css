@@ -5818,7 +5818,7 @@ input[type=range]:focus::-ms-fill-upper {
     opacity: 0; } }
 .slider {
   position: relative;
-  height: 400px;
+  height: 100%;
   width: 100%; }
   .slider.fullscreen {
     height: 100%;
@@ -5836,7 +5836,7 @@ input[type=range]:focus::-ms-fill-upper {
   .slider .slides {
     background-color: #9e9e9e;
     margin: 0;
-    height: 400px; }
+    height: 100%; }
     .slider .slides li {
       opacity: 0;
       position: absolute;
@@ -6837,24 +6837,30 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 
 body {
   background-color: #000;
-  font-family: "Roboto"; }
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-size: 1.2rem; }
 
-#home, #about {
+#home, #about, #artwork {
   background-color: #000;
   background-image: url("../img/jh_chrome_logo_final.png");
-  background-position: center top; }
+  background-position: center top;
+  background-repeat: no-repeat; }
 
-#photos {
+#booking {
   background-color: #000;
-  background-image: url("../img/web_collage.png");
-  background-position: center top; }
+  background-image: url("../img/jackal_hyde_green.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-position: 0px 50px; }
 
 .fa {
-  color: #fff; }
-
-#media {
-  width: 300px;
-  background-color: #000; }
+  color: #fff;
+  font-size: 1.5em; }
 
 /*@font-face {*/
 /*font-family: Lato;*/
@@ -6871,6 +6877,9 @@ body {
 html {
   overflow-y: scroll; }
 
+img.responsive-img {
+  max-width: 50%; }
+
 #title {
   background: transparent url(../images/title.png) 0 0 scroll;
   position: absolute;
@@ -6879,17 +6888,44 @@ html {
   height: 62px;
   width: 334px; }
 
+.nav-wrapper #discogsIcon {
+  margin-top: 1em; }
+
+.nav-wrapper {
+  margin-right: 1em; }
+
+.page-footer .secondNestedRow menu {
+  height: 30px; }
+
+.page-footer .secondNestedRow menu li {
+  display: inline-block; }
+
+.bodyText a {
+  color: #fff;
+  text-decoration: underline; }
+
 #download {
   position: absolute;
   top: 132px;
   left: 30px;
   text-decoration: none;
   font-size: 12px;
-  color: #999;
-  font-family: arial, sans-serif; }
+  color: #999; }
 
 #download:hover {
   color: #fff; }
+
+#TopMenuDiscogs {
+  padding-top: .5em; }
+
+.row .row {
+  margin-bottom: 0px; }
+
+nav li {
+  vertical-align: text-bottom; }
+
+#mediaLinks {
+  float: left; }
 
 .rating-level, .rating-star, .tracklist, .tracks, .track {
   visibility: hidden; }
@@ -6902,6 +6938,20 @@ html {
 
 .ttw-music-player .description {
   display: none; }
+
+.ttw-music-player .tracklist {
+  display: none; }
+
+.jp-interface .artist, .jp-interface .artist-outer {
+  display: none; }
+
+.jp-next, .jp-previous {
+  display: none; }
+
+#home .ttw-music-player .play, #home .ttw-music-player .pause {
+  width: 32px;
+  height: 45px;
+  margin: 0 7px; }
 
 .menu {
   -webkit-margin-before: 0em;
@@ -6921,48 +6971,74 @@ html {
   padding: 8px;
   color: #fff; }
 
-.menu a:hover, .menu .fa:hover {
+.menu a:hover, .menu .fa:hover, nav ul a:hover, nav ul .fa:hover {
   color: #be130c; }
 
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  color: #fff; }
-
-main {
-  flex: 1 0 auto; }
-
-h2 {
-  font-size: 25px;
-  font-style: bold;
-  color: #fff; }
-
-.pageContent {
+.progress {
   position: relative;
-  min-width: 100%; }
+  height: 16px;
+  background-color: #be130c;
+  border-radius: 2px; }
+
+.current {
+  border-bottom: 2px solid #be130c; }
+
+.side-nav a {
+  color: #fff; }
+
+.side-nav li > a:hover {
+  background-color: #000;
+  color: #fff; }
+
+.side-nav li > a, .side-nav .fa {
+  color: #fff; }
+
+.stickyfooter a {
+  color: #fff; }
+
+.nav-wrapper .menu li {
+  float: none; }
+
+#artwork .slider {
+  min-height: 650px !important; }
+
+#artwork .slider .slides, #artwork .slider .slides li {
+  min-height: 600px !important; }
 
 .pageContent .stickyfooter {
   position: absolute;
   bottom: 0px;
-  width: 100%; }
+  width: 100%;
+  background-color: #000; }
 
 #discogsIcon {
-  padding-top: 1em; }
+  padding-top: .5em;
+  margin-left: .5em;
+  width: 83px;
+  height: 30px;
+  display: block;
+  background-image: url(../img/discogsrollover.png); }
 
-.ttw-music-player .tracklist {
-  display: none; }
+#discogsIcon:hover {
+  padding-top: .5em;
+  margin-left: .5em;
+  width: 83px;
+  height: 30px;
+  display: block;
+  background-image: url(../img/discogsrollover.png);
+  background-position: -83px; }
 
-#mediaLinks {
-  position: absolute;
-  bottom: 0px;
-  padding-left: 70px; }
+#discogsIcon img {
+  padding-top: .5em; }
 
-.saleItem, #mediaLinks {
-  text-align: center; }
+.side-nav .discogsIcon img {
+  width: 83px;
+  height: 30px;
+  padding-top: 0; }
 
 .saleItem {
-  padding-right: 200px; }
+  float: right;
+  text-align: center; }
 
 .saleItem h2 {
   margin-bottom: 0px; }
@@ -6971,10 +7047,357 @@ h2 {
   margin-top: 0px; }
 
 .bodyText {
-  background: #000; }
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: black;
+  /* RGBa with 0.6 opacity */
+  background: rgba(0, 0, 0, 0.6);
+  /* For IE 5.5 - 7*/
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; }
 
-.page-footer {
-  z-index: 9999;
-  background-color: #000; }
+#booking .bodyText {
+  padding: 1em;
+  width: 50%;
+  margin-top: 30%;
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: #be130c;
+  /* RGBa with 0.6 opacity */
+  background: rgba(190, 19, 12, 0.6);
+  /* For IE 5.5 - 7*/
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c)"; }
+
+#home .page-footer, #artwork .page-footer, #booking .page-footer {
+  background-color: transparent;
+  width: 100%;
+  padding-left: 3rem;
+  padding-right: 3rem; }
+
+#about .page-footer {
+  background-color: #be130c;
+  width: 100%;
+  padding-left: 3rem;
+  padding-right: 3rem; }
+
+.page-footer .container {
+  width: 100%;
+  max-width: 100%; }
+
+main {
+  flex: 1 0 auto; }
+
+.mainRow {
+  position: relative; }
+
+.firstColumn {
+  position: relative; }
+
+.mainRow .secondColumn {
+  position: relative; }
+
+nav {
+  background-color: #000;
+  margin-bottom: 1em; }
+
+.bodyText {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto; }
+
+blockquote {
+  font-style: Italic;
+  border-left: 0px; }
+
+.bodyText .container {
+  width: 100%; }
+
+h1, h2, .author {
+  font-size: 1.5rem; }
+
+#home nav {
+  display: none; }
+
+#artwork .firstColumn .secondNestRow, #booking .firstColumn .secondNestRow {
+  display: none; }
+
+blockquote {
+  border-left: 5px solid #be130c; }
+
+.brand-logo {
+  margin-top: .25em; }
+
+nav .brand-logo {
+  left: 12rem; }
+
+#home .brand-logo {
+  margin-left: 0em; }
+
+/*#shadylogo{
+  max-width:304px;
+  max-height:326px;
+}
+
+
+#goldbabylogo{
+
+  max-width:701px;
+  max-height:159px;
+}*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .page-footer .secondNestedRow .menu li {
+    float: none; }
+
+  .page-footer .secondNestedRow .menu li {
+    display: block; }
+
+  .page-footer .secondNestedRow .menu {
+    width: auto;
+    float: none;
+    margin-left: 0;
+    margin-right: 0; }
+
+  #artwork .slider {
+    min-height: 500px !important; }
+
+  #artwork .slider .slides, #artwork .slider .slides li {
+    min-height: 450px !important; }
+
+  .page-footer .firstColumn {
+    float: none; }
+
+  #mediaLinks {
+    float: left; }
+
+  .slider, .slider .slides {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto; }
+
+  .slider img, .slider .slides img {
+    max-width: 100%; }
+
+  #booking {
+    background-color: #000;
+    background-image: url("../img/jackal_hyde_green_mobile.jpg");
+    background-position: center top 70px;
+    background-repeat: no-repeat;
+    background-size: 100%; }
+
+  #home, #about, #artwork {
+    background-color: #000;
+    background-image: url(../img/jh_chrome_logo_final.png);
+    background-position: center top 30px;
+    background-repeat: no-repeat;
+    background-size: 100%; }
+
+  .page-footer .firstColumn {
+    margin: auto; }
+
+  #home nav {
+    display: block; }
+
+  .firstColumn .secondNestRow {
+    display: none; }
+
+  #home .page-footer {
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: black;
+    /* RGBa with 0.6 opacity */
+    background: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)"; }
+
+  main {
+    min-height: 150px; }
+
+  #home .page-footer, .page-footer, #artwork .page-footer, #booking .page-footer {
+    background-color: transparent;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 0; }
+
+  .stickyfooter .secondNestedRow {
+    width: 500px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto; }
+
+  #booking .bodyText {
+    padding: 1em;
+    width: 50%;
+    margin-top: 30%;
+    background-size: cover;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: #be130c;
+    /* RGBa with 0.6 opacity */
+    background: rgba(190, 19, 12, 0.6);
+    /* For IE 5.5 - 7*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c)"; }
+
+  .saleItem, .saleItem .center {
+    float: left; } }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #home, #about, #artwork {
+    background-color: #000;
+    background-image: url(../img/jh_chrome_logo_final.png);
+    background-position: center top 30px;
+    background-repeat: no-repeat;
+    background-size: 100%; }
+
+  .firstColumn .secondNestRow {
+    display: none; }
+
+  #booking {
+    background-color: #000;
+    background-image: url("../img/jackal_hyde_green_mobile.jpg");
+    background-position: center top 70px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 2100px; }
+
+  .slider, .slider .slides {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto; }
+
+  .firstColumn .secondNestRow {
+    display: none; }
+
+  #mediaLinks {
+    float: none; }
+
+  .saleItem, .saleItem .center {
+    float: none; }
+
+  .stickyfooter .secondNestedRow .menu {
+    width: 500px;
+    float: none;
+    margin-left: auto;
+    margin-right: auto; }
+
+  #home nav {
+    display: block; }
+
+  #booking .bodyText {
+    background-size: cover;
+    padding: 1em;
+    width: 50%;
+    margin-top: 30%;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: #be130c;
+    /* RGBa with 0.6 opacity */
+    background: rgba(190, 19, 12, 0.6);
+    /* For IE 5.5 - 7*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c)"; }
+
+  footer {
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: #be130c;
+    /* RGBa with 0.6 opacity */
+    background: rgba(190, 19, 12, 0.6);
+    /* For IE 5.5 - 7*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c)"; } }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #home nav {
+    display: block; }
+
+  #home, #about, #artwork {
+    background-color: #000;
+    background-image: url("../img/jh_chrome_logo_final.png");
+    background-position: center top 0px;
+    background-repeat: no-repeat;
+    background-size: auto; }
+
+  .slider {
+    margin-left: auto;
+    margin-right: auto;
+    height: 690px;
+    width: 645px; }
+
+  .slider .slides, .slider .slides img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 645px;
+    height: 650px; } }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #home nav {
+    display: block; }
+
+  .firstColumn .secondNestRow {
+    display: none; }
+
+  .saleItem {
+    float: right; }
+
+  .stickyfooter .menu {
+    float: right; }
+
+  #mediaLinks {
+    float: left; }
+
+  .saleItem .center {
+    float: right; }
+
+  #booking {
+    background-color: #000;
+    background-image: url("../img/jackal_hyde_green.jpg");
+    background-position: center top 70px;
+    background-repeat: no-repeat;
+    background-size: 100%; }
+
+  #booking .bodyText {
+    padding: 1em;
+    width: 50%;
+    margin-top: 30%;
+    background-size: cover;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: #be130c;
+    /* RGBa with 0.6 opacity */
+    background: rgba(190, 19, 12, 0.6);
+    /* For IE 5.5 - 7*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#be130c, endColorstr=#be130c)"; } }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1334px) {
+  #home .page-footer {
+    background-color: none; }
+
+  #home #groupAll {
+    position: absolute;
+    bottom: -375px; }
+
+  .firstColumn .secondNestRow {
+    display: block; }
+
+  #home nav {
+    display: none; }
+
+  .saleItem {
+    float: right; }
+
+  .stickyfooter .secondNestedRow .menu {
+    float: right; } }
+/*Target firefox hack*/
+@-moz-document url-prefix() {
+  .stickyfooter .menu {
+    margin-bottom: 0px;
+    margin-top: 0px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -6950,6 +6950,9 @@ nav li {
   height: 45px;
   margin: 0 7px; }
 
+img.responsive-img {
+  max-width: 50%; }
+
 .menu {
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
