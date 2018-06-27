@@ -6953,6 +6953,9 @@ nav li {
 img.responsive-img {
   max-width: 50%; }
 
+#artwork img.responsive-img {
+  max-width: 100%; }
+
 .menu {
   -webkit-margin-before: 0em;
   -webkit-margin-after: 0em;
