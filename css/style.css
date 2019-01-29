@@ -7401,3 +7401,11 @@ nav .brand-logo {
     margin-top: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.flexbox {
+  display: flex;
+  flew-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
