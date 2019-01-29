@@ -7402,5 +7402,10 @@ nav .brand-logo {
   .stickyfooter .menu {
     margin-bottom: 0px;
     margin-top: 0px; } }
+.flexbox {
+  display: flex;
+  flew-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
 
 /*# sourceMappingURL=materialize.css.map */
