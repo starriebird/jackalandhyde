@@ -6844,7 +6844,7 @@ body {
   flex-direction: column;
   font-size: 1.2rem; }
 
-#home, #about, #artwork {
+#home, #artwork {
   background-color: #000;
   background-image: url("../img/jh_chrome_logo_final.png");
   background-position: center top;
@@ -7316,7 +7316,7 @@ nav .brand-logo {
   #home nav {
     display: block; }
 
-  #home, #about, #artwork {
+  #home, #artwork {
     background-color: #000;
     background-image: url("../img/jh_chrome_logo_final.png");
     background-position: center top 0px;
