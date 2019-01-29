@@ -7226,6 +7226,7 @@ nav .brand-logo {
     padding-right: 0; }
 
   .stickyfooter .secondNestedRow {
+    width: 500px;
     float: none;
     margin-left: auto;
     margin-right: auto; }
@@ -7383,7 +7384,7 @@ nav .brand-logo {
 
   #home #groupAll {
     position: absolute;
-    bottom: -675px; }
+    bottom: -375px; }
 
   .firstColumn .secondNestRow {
     display: block; }
