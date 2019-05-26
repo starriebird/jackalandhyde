@@ -388,8 +388,8 @@ color:#fff;
 
   #booking .bodyText{
     padding: 1em;
-    width:50%;
-    margin-top:30%;
+    width:30%;
+    margin-top:37%;
     /* Fallback for web browsers that doesn't support RGBa */
     background: rgb(190, 19, 12);
     /* RGBa with 0.6 opacity */
@@ -677,7 +677,7 @@ main{
 
 
 
-} 
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
@@ -767,7 +767,7 @@ main{
     }
 
 
-} 
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -805,7 +805,7 @@ background-size:auto;
 
 
 
-} 
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -826,7 +826,7 @@ background-size:auto;
 
 .stickyfooter .menu{
   float:right;
-} 
+}
 
 
 #mediaLinks{
@@ -863,7 +863,7 @@ background-size:auto;
 
 
 
-} 
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1334px) {
@@ -909,7 +909,7 @@ background-size:auto;
 
 /*Target firefox hack*/
 
-@-moz-document url-prefix() { 
+@-moz-document url-prefix() {
   .stickyfooter .menu {
       margin-bottom:0px;
       margin-top:0px;
@@ -924,5 +924,3 @@ background-size:auto;
   justify-content: center;
   align-items: center;
 }
-
-
