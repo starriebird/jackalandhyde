@@ -7098,7 +7098,8 @@ main {
   position: relative; }
 
 .mainRow .secondColumn {
-  position: relative; }
+  position: relative;
+  padding-top: 6em; }
 
 nav {
   background-color: #000;
